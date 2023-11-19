@@ -21,11 +21,9 @@ export default class App extends Component {
       toTop: false,
     };
 
-    // Ref for scrolling to bottom
     this.bottomRef = React.createRef();
   }
 
-  // Scroll to bottom with load more
   scrollToBottom = () => {
     this.bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   };

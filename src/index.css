@@ -35,9 +35,6 @@ img {
   padding-bottom: 24px;
 }
 
-/*
- * Стили компонента Searchbar
- */
 .Searchbar {
   top: 0;
   left: 0;
@@ -76,7 +73,6 @@ img {
   width: 48px;
   height: 48px;
   border: 0;
-  /* background-image: url('../src/images/magnifysvgrepo-min.svg'); */
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;

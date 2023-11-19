@@ -1,4 +1,4 @@
-import { string, func } from 'prop-types';
+import { string } from 'prop-types';
 import './Button.modules.css';
 
 const Button = props => {
